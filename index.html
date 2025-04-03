@@ -28,10 +28,12 @@
 <body>
     <div class="container">
         <script>
-            var nome = prompt("Informe o nome:");
-            document.write("Olá, " + nome + "!");
-            alert("Olá, " + nome + "!");
-            console.log("Olá,  " + nome + "!");
+            var nome = prompt("Informe o nome do produto:");
+            var descricao = prompt("Informe a descricao do produto:");
+            var preco = prompt("Informe o preco do produto:");
+            document.write(`<h1 class="titulo">${nome}</h1>`);
+            document.write(`<article class="descricao">${descricao}</article>`);
+            document.write(`<aside class="preco">${preco}</aside>`);
         </script>
     </div>
     
